@@ -3,6 +3,7 @@ var prerender = require('./lib');
 
 var server = prerender();
 
+server.use(require('prerender-file-cache'));
 server.use(prerender.sendPrerenderHeader());
 // server.use(prerender.blockResources());
 server.use(prerender.removeScriptTags());

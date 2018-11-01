@@ -13,7 +13,9 @@
     "chrome-remote-interface": "~0.25.7",
     "compression": "~1.7.3",
     "express": "~4.16.3",
+    "forever": "^0.15.3",
     "he": "~1.1.1",
+    "prerender-file-cache": "0.0.6",
     "valid-url": "~1.0.9"
   },
   "devDependencies": {
