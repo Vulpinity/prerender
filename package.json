@@ -16,7 +16,7 @@
     "express": "~4.16.3",
     "forever": "^0.15.3",
     "he": "~1.1.1",
-    "prerender-file-cache": "git+https://github.com/Vulpinity/prerender-file-cache.git",
+    "prerender-file-cache": "git+https://github.com/Vulpinity/prerender-file-cache.git#master",
     "valid-url": "~1.0.9"
   },
   "devDependencies": {
